@@ -20,7 +20,7 @@ const Product = ({ product }) => {
                         {CurrencyFormatter.format(product.price)}
                     </Typography>
                 </div>
-                <Typography variant='body2' color='text-secondary'>{product.description}</Typography>
+                <Typography variant='body2' color='textSecondary'>{product.description}</Typography>
             </CardContent>
             <CardActions disableSpacing className={classes.cardActions}>
                 <IconButton aria-label='Add To Cart'>
