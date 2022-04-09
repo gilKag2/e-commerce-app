@@ -3,7 +3,6 @@ import { Typography, Button, Card, CardActions, CardContent, CardMedia } from '@
 import useStyles from './Styles';
 const CartItem = ({ item }) => {
     const classes = useStyles();
-    console.log(item);
     return (
         <Card>
             <CardMedia image={item.image.url} alt={item.name} className={classes.media} />
